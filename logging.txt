@@ -1,0 +1,38 @@
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=7dd96f0a0c00492f64a21eedcd4d21ee
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=7dd96f0a0c00492f64a21eedcd4d21ee
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 18 Jun 2022 05:51:04 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 260
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.38341",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Forntline Houst",
+    "phone_number": "(+91) 8968508444",
+    "address": "Test 1234 Chandigarh",
+    "types": "shoe park,shop",
+    "website": "https://rahulshettyacademy.com",
+    "language": "English"
+}
